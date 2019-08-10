@@ -1,0 +1,42 @@
+Note Taking App 
+
+1) Extract .zip file
+2) Open folder in terminal
+3) After step 1, run "npm install" command in terminal to install all dependencies in package.json
+3) Run "npm start" in terminal
+4) This app will be running on port 3000. Copy and paste the following adress in your browser "http://localhost:3000/"
+
+To Add Note:
+
+1) Insert a note in field.
+2) Press Add button or Enter key
+
+Note: Please, do not repeat text
+
+
+To Edit Note:
+
+1) Click over note text you want to edit
+2) Note text will be on input
+3) Edit
+4) Press Edit button
+
+To Remove Note:
+
+1) Click over note text you want to remove
+2) Note text will be on input
+3) Press Remove button
+
+To Change color
+
+1) Click over note text you want to change color
+2) Note text will be on input
+3) Select color from Color Table, clicking over colour you want
+4) Selected color will change
+5) Press Change Color
+6) Press Empty Field
+
+
+
+
+

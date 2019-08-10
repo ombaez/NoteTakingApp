@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 40px;
+  max-height: 100vh;
+  max-width: 100vw;
+  width: 100%;
+  height: 100%;
+}
+
+.controlTable {
+  float: left;
+  margin-top: 45px;
+}
+
+.colorTable {
+  padding-left: 100px;
+  padding-top: 40px;
+}
+
+#txt {
+  margin-top: 20px;
+  resize: both;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+#list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: start;
+  padding: 0;
+}
+
+.listItems div {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  word-break: break-all;
+  border: 1px solid black;
+  max-width: 200px;
+  width: 200px;
+  height: 100px;
+  max-height: 100px;
+  font-size: 16px;
+  text-align: start;
+  padding: 8px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+#button,
+#addKey {
+  cursor: pointer;
+}
+.redSquare {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.yellowSquare {
+  width: 20px;
+  height: 20px;
+  background-color: yellow;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.greenSquare {
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.blueSquare {
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.inViewport {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position: absolute;
+  top: -100vh;
+  transition: all 0.5s ease-in;
+}
+
+.inViewport p {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position: fixed;
+  top: 15%;
+  left: 32%;
+  height: 365px;
+  width: 600px;
+  transition: all 0.5s;
+  font-size: 21px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.outViewport p {
+  position: absolute;
+  width: 60%;
+  height: 40%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  font-size: 24px;
+  text-align: center;
+  justify-content: start;
+}
+
+.outViewport {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position: fixed;
+  top: -100vh;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all 0.5s ease-out;
+}
